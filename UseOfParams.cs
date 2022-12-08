@@ -12,7 +12,7 @@ namespace PARAM
 
         }
       
-        static int Process(params int[] a)
+        static int Process(params int[] a) //use of params: It will allow the fuction to take multiple values 
         {
             int sum = 0;
             foreach(int i in a)
